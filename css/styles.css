@@ -1,0 +1,75 @@
+/* ---common css-starts--- */
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(168, 168, 168);
+}
+/* ---common cssends--- */
+
+/* ---header section starts---------- */
+header{
+    padding: 64px 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    width: 10%;
+    float: left;
+    /* border: 1px solid black; */
+  
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+    /* border: 1px solid black; */
+}
+.menu ul {
+    float: right;
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0 65px;
+    padding: 5px 0;
+    color: rgb(143, 145, 145);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:.33s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    color: black;
+
+}
+
+/* ---header section ends-------------- */
+
+
+/* ---bannder section start-------------- */
+
+.banner{
+    padding: 35px 0;
+
+}
+.bg_image img{
+    width: 100%;
+}
+
+/* ---bannder section ends-------------- */
