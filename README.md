@@ -1,2 +1,3 @@
 # projecet-minimo
-Header Section
+Header & Banner Section
+visit link: https://jhshuvo.github.io/projecet-minimo/
